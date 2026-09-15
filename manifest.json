@@ -1,0 +1,24 @@
+{
+  "id": "/index.html",
+  "name": "ViaggiApp",
+  "short_name": "ViaggiApp",
+  "description": "**ViaggiApp** è un'app web per organizzare i bagagli di viaggio per tutta la famiglia, con liste intelligenti personalizzate, consigli AI, modalità offline e installazione come app sul telefono.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1e2028",
+  "theme_color": "#1e2028",
+  "lang": "it",
+  "categories": ["travel", "lifestyle"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    { "src": "screenshot-mobile.png", "sizes": "412x915", "type": "image/png", "form_factor": "narrow", "label": "Vista principale su mobile" },
+    { "src": "screenshot-wide.png", "sizes": "1280x800", "type": "image/png", "form_factor": "wide", "label": "Vista principale su schermo largo" }
+  ]
+}
